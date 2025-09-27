@@ -1,4 +1,4 @@
-#include <BleKeyboard.h>
+#include <BleKeyboard.h> /* disable firewall in windows */
 #define pin1 2
 bool laststate=HIGH;
 const char *name="Logitech";
