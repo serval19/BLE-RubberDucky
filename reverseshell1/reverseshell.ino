@@ -1,4 +1,4 @@
-#include <BleKeyboard.h> /* disable firewall in windows */
+#include <BleKeyboard.h> /* disable firewall in windows and change the ip address in the payload to that of your attacker device */
 #define pin1 2
 bool laststate=HIGH;
 const char *name="Logitech";
